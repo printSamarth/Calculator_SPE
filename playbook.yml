@@ -1,0 +1,8 @@
+---
+- name: Pull docker image
+  hosts: all
+  tasks:
+    - name: Pull printsamarth/calculator_spe
+      docker_image:
+        name: printsamarth/calculator_spe
+        source: pull

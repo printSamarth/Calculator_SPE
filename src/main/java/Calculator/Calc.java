@@ -42,7 +42,7 @@ public class Calc {
                         return;
                     }
                     System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-                    System.out.println("Square root is: " + calculator.squareRoot(num));
+                    System.out.println("Natural log is: " + calculator.naturalLog(num));
                     System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
                     break;
                 case 2:
@@ -54,9 +54,10 @@ public class Calc {
                         return;
                     }
                     System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-                    System.out.println("Square root is: " + calculator.factorial(num));
+                    System.out.println("Square root is: " + calculator.squareRoot(num));
                     System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
                     break;
+
                 case 3:
                     try {
                         System.out.print("Enter the number : ");
@@ -66,9 +67,10 @@ public class Calc {
                         return;
                     }
                     System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-                    System.out.println("Square root is: " + calculator.naturalLog(num));
+                    System.out.println("Factorial is: " + calculator.factorial(num));
                     System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
                     break;
+
                 case 4:
                     double num1;
                     try {
@@ -81,13 +83,13 @@ public class Calc {
                         return;
                     }
                     System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
-                    System.out.println("Square root is: " + calculator.power(num, num1));
+                    System.out.println("Power is: " + calculator.power(num, num1));
                     System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
                     break;
                 default:
                     System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
                     System.out.println("THANK YOU!");
-                    System.out.println("*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*");
+
                     return;
             }
         }
